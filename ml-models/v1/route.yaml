@@ -1,0 +1,16 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: max-object-detector
+  namespace: ml-model-v1
+spec:
+  host: >-
+    max-object-detector-ml-model.rhacm-hub-fringe-sat-b95ece5a8e5f8f2343b2871be9bb6524-0000.au-syd.containers.appdomain.cloud
+  to:
+    kind: Service
+    name: max-object-detector
+    weight: 100
+  port:
+    targetPort: 5000
+  wildcardPolicy: None
+  
