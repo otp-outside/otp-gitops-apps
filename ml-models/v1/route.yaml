@@ -2,7 +2,7 @@ kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
   name: max-object-detector
-  namespace: ml-model-v1
+  namespace: ml-model
 spec:
   to:
     kind: Service

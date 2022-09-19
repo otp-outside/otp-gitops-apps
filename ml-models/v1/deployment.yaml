@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: max-object-detector
-  namespace: ml-model-v1
+  namespace: ml-model
   labels:
     app: max-object-detector
 spec:
