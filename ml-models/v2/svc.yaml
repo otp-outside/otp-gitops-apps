@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: yolo-object-detector
+  namespace: ml-model
 spec:
   selector:
     app: yolo-object-detector
