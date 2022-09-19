@@ -1,14 +1,14 @@
-# kind: Route
-# apiVersion: route.openshift.io/v1
-# metadata:
-#   name: yolo-object-detector
-#   namespace: ml-model
-# spec:
-#   to:
-#     kind: Service
-#     name: yolo-object-detector
-#     weight: 100
-#   port:
-#     targetPort: 8000
-#   wildcardPolicy: None
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: yolo-object-detector
+  namespace: ml-model
+spec:
+  to:
+    kind: Service
+    name: yolo-object-detector
+    weight: 100
+  port:
+    targetPort: 8000
+  wildcardPolicy: None
   
