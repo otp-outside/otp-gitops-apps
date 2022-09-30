@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: yolo-object-detector
-        image: quay.io/langley_millard_ibm/ml-model-v2
+        image: quay.io/langley_millard_ibm/ml-model-v2:latest
         ports:
         - containerPort: 8000
         env:
