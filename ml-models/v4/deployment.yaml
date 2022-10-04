@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streamlit-cow-v1
+  namespace: ml-model
+  labels:
+    app: streamlit-cow-v1
+spec:
+  selector:
+    matchLabels:
+      app: streamlit-cow-v1
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: streamlit-cow-v1
+    spec:
+      containers:
+      - name: streamlit-cow-v1
+        image: quay.io/langley_millard_ibm/ml-model-v4
+        ports:
+        - containerPort: 2085
+        env:
+        - name: DISABLE_WEB_APP
+          value: "false"
