@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: streamlit-car-v1
+  name: streamlit-cow-v1
   namespace: ml-model
 spec:
   selector:
-    app: streamlit-car-v1
+    app: streamlit-cow-v1
   ports:
   - port: 2085
   type: NodePort

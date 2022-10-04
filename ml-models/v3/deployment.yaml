@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: streamlit-car-v1
+  name: streamlit-cow-v1
   namespace: ml-model
   labels:
-    app: streamlit-car-v1
+    app: streamlit-cow-v1
 spec:
   selector:
     matchLabels:
-      app: streamlit-car-v1
+      app: streamlit-cow-v1
   replicas: 1
   template:
     metadata:
       labels:
-        app: streamlit-car-v1
+        app: streamlit-cow-v1
     spec:
       containers:
-      - name: streamlit-car-v1
+      - name: streamlit-cow-v1
         image: quay.io/langley_millard_ibm/ml-model-v3
         ports:
         - containerPort: 2085

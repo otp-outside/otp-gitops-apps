@@ -1,12 +1,12 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: streamlit-car-v1
+  name: streamlit-cow-v1
   namespace: ml-model
 spec:
   to:
     kind: Service
-    name: streamlit-car-v1
+    name: streamlit-cow-v1
     weight: 100
   port:
     targetPort: 2085
