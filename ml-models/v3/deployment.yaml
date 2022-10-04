@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: streamlit-car-v1
-        image: quay.io/sam_paisley/fringe:streamlit-car-v1
+        image: quay.io/langley_millard_ibm/ml-model-v3
         ports:
         - containerPort: 2085
         env:
