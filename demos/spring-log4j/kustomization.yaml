@@ -9,3 +9,6 @@ images:
   newTag: ba2cda9fe180c6c1d715325b980b6a00d3585523a2184c0be55fe8728d4c6802
 - name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable
   newTag: "0.1"
+- name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1
+  newName: quay.io/nickmerrett/spring-boot-log4j-vulnerable
+  newTag: 005f4a16a6a8e54c2495f63dd34cd48596db30e3b05640fd549e55b156c0efc5
