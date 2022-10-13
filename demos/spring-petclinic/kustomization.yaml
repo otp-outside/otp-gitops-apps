@@ -1,0 +1,10 @@
+resources:
+- deployment.yaml
+- service.yaml
+- route.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1
+  newName: quay.io/nickmerrett/spring-boot-log4j-vulnerable
+  newTag: 005f4a16a6a8e54c2495f63dd34cd48596db30e3b05640fd549e55b156c0efc5
