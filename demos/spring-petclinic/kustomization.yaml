@@ -4,10 +4,3 @@ resources:
 - route.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-images:
-- digest: sha256:9a43f3066038737f381f460094e8d7fc99dad8fc4e081cf72508956f4dbbeb22
-  name: quay.io/siamaksade/spring-petclinic:latest
-  newName: quay.io/nickmerrett/spring-petclinic
-- name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1
-  newName: quay.io/nickmerrett/spring-boot-log4j-vulnerable
-  newTag: 005f4a16a6a8e54c2495f63dd34cd48596db30e3b05640fd549e55b156c0efc5
