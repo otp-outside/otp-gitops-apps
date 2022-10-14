@@ -5,7 +5,7 @@ resources:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- digest: sha256:f8ef2b913792cfc15c5ae16089ad09b8c283975f74ec587ad13356c4b222df0d
+- digest: sha256:9a43f3066038737f381f460094e8d7fc99dad8fc4e081cf72508956f4dbbeb22
   name: quay.io/siamaksade/spring-petclinic:latest
   newName: quay.io/nickmerrett/spring-petclinic
 - name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1
