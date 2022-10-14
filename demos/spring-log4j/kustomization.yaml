@@ -7,4 +7,4 @@ kind: Kustomization
 images:
 - name: registry-1.docker.io/egrol/spring-boot-log4j-vulnerable:0.1
   newName: quay.io/nickmerrett/spring-boot-log4j-vulnerable
-  newTag: 256dd23ed9e25cde3eb892b90ebec1cc487fdd025d3edb58bf90a8c73883878a
+  newTag: ab35735c3846715a9ab841fd4c64efcf3b7a5bd70e7ab1b32288efe515993ded
