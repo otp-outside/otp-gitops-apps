@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   annotations:
-  namespace: suspicious
+  namespace: devsecops-dev
   labels:
     app: spring-petclinic
     app.kubernetes.io/component: web
