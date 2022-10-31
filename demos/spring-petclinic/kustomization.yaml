@@ -7,4 +7,4 @@ kind: Kustomization
 images:
 - digest: sha256:7dfd72fa7b599a1ce8f13f8961ab3f6537d3ffeac198e2503ad3bfd12f495840
   name: quay.io/siamaksade/spring-petclinic:latest
-  newName: quay.io/nickmerrett/spring-petclinic
+  newName: quay.io/langley_millard_ibm/spring-petclinic
