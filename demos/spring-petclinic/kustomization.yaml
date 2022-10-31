@@ -5,6 +5,6 @@ resources:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- digest: sha256:b2ef5d6ef48b91774286475c3bf92a2bea3d430ab7091d9c8a802c1e8b420166
+- digest: sha256:107d071b89a70071dc28d9e30158a094cf9d0a5811632bd817fbf59c033c3b88
   name: quay.io/siamaksade/spring-petclinic:latest
-  newName: quay.io/nickmerrett/spring-petclinic
+  newName: quay.io/langley_millard_ibm/spring-petclinic
